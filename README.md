@@ -1,8 +1,42 @@
-# React + Vite
+# **Sponsor Dios Shop**  
+¡Hola! Este es mi primer proyecto en React usando **JSX**. Es un mini e-commerce llamado **Sponsor Dios Shop**, donde trabajé en implementar varias funcionalidades básicas siguiendo consignas específicas.  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aprendí muchísimo mientras lo hacía, así que te comparto un poco de lo que logré. Espero que te guste 😊  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## **¿Qué hace esta página?**  
+La idea del proyecto es tener una base para un e-commerce. Aunque no tiene toda la funcionalidad de una tienda real, cumplí con las siguientes tareas:  
+- Crear un **menú de navegación** con categorías clickeables.  
+- Mostrar un listado de productos (mockeados, es decir, datos simulados).  
+- Agregar un ícono de carrito que muestra un número fijo (por ahora).  
+- Usar **Bootstrap** para los estilos básicos.  
+
+---
+
+## **¿Qué contiene el proyecto?**  
+### **Carpeta `components`:**  
+Dentro de `src/components`, creé los siguientes componentes:  
+- **NavBar.jsx**:  
+  Es el menú principal. Incluye:  
+  - El nombre de la tienda como "brand".  
+  - Un listado de categorías clickeables (Ropa, Accesorios y Sneakers).  
+
+- **CartWidget.jsx**:  
+  Es un pequeño componente que muestra un ícono de carrito con un número hardcodeado (3).  
+
+- **ItemListContainer.jsx**:  
+  Muestra un mensaje de bienvenida (pasado como `prop`) y renderiza una lista de productos.  
+
+### **Archivo `products.js`:**  
+Simula un pequeño catálogo con productos mockeados (nombre, precio, categoría, etc.).  
+
+---
+
+## **¿Qué puedo mejorar?**  
+Este es solo el comienzo, así que me encantaría:  
+- Implementar **filtrado de productos** por categoría (Ropa, Accesorios, Sneakers).  
+- Hacer que el carrito funcione de verdad: actualizar el número según los productos agregados.  
+- Conectar el proyecto con una base de datos como **Firebase** para almacenar productos y manejar pedidos.  
+- Agregar una página de **detalles del producto** al hacer clic en un producto.  
+- Mejorar los estilos con diseño responsivo para que se vea bien en dispositivos móviles.  
