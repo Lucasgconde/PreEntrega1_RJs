@@ -1,7 +1,7 @@
 # **Sponsor Dios Shop**  
 ¡Hola! Este es mi primer proyecto en React usando **JSX**. Es un mini e-commerce llamado **Sponsor Dios Shop**, donde trabajé en implementar varias funcionalidades básicas siguiendo consignas específicas.  
 
-Aprendí muchísimo mientras lo hacía, así que te comparto un poco de lo que logré. Espero que te guste 😊  
+Me inspiré en el diseño y funcionalidad de la página [Sponsor Dios](https://www.sponsordios.shop/) para desarrollar este proyecto. Mi objetivo es crear algo similar, utilizando React y aplicando lo que aprendí en mis estudios.  
 
 ---
 
@@ -30,6 +30,13 @@ Dentro de `src/components`, creé los siguientes componentes:
 
 ### **Archivo `products.js`:**  
 Simula un pequeño catálogo con productos mockeados (nombre, precio, categoría, etc.).  
+
+---
+
+## **¿Cómo se ve?**  
+Así es como va quedando la página:  
+
+![Preview de Sponsor Dios Shop](src/assets/preview.png)  
 
 ---
 
